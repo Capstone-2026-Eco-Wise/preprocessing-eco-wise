@@ -1,0 +1,40 @@
+Section,Category,Metric,Value
+Dataset Overview,,Total Number of Images,17620
+Dataset Overview,,Main Categories,"['Anorganik', 'B3', 'Organik', 'Non-Waste']"
+Dataset Overview,,Number of Main Categories,4
+Dataset Overview,,Number of Sub-categories (Material Types),20
+Dataset Overview,,Dataset Base Path,/content/drive/MyDrive/ecowise
+Dataset Overview,,Extracted Dataset Folder,/content/drive/MyDrive/ecowise/dataset-trashcan
+Class Distribution (Main Categories),Anorganik,Details,6471
+Class Distribution (Main Categories),Organik,Details,6000
+Class Distribution (Main Categories),B3,Details,3500
+Class Distribution (Main Categories),Non-Waste,Details,1649
+Class Distribution (Detailed Material Types),Non-Waste (random_objects),Details,1649
+Class Distribution (Detailed Material Types),Anorganik (PET),Details,1014
+Class Distribution (Detailed Material Types),Anorganik (rag),Details,1005
+Class Distribution (Detailed Material Types),Anorganik (plastic_shopping_bags),Details,1001
+Class Distribution (Detailed Material Types),Anorganik (bungkus_makanan),Details,1000
+Class Distribution (Detailed Material Types),Anorganik (kaleng),Details,1000
+Class Distribution (Detailed Material Types),B3 (battery),Details,1000
+Class Distribution (Detailed Material Types),Anorganik (kaca),Details,1000
+Class Distribution (Detailed Material Types),Organik (kardus),Details,1000
+Class Distribution (Detailed Material Types),Organik (eggshells),Details,1000
+Class Distribution (Detailed Material Types),Organik (kertas),Details,1000
+Class Distribution (Detailed Material Types),Organik (daun),Details,1000
+Class Distribution (Detailed Material Types),Organik (food_waste),Details,1000
+Class Distribution (Detailed Material Types),Organik (tissue),Details,1000
+Class Distribution (Detailed Material Types),B3 (plastic_detergent_bottles),Details,500
+Class Distribution (Detailed Material Types),B3 (glass_cosmetic_containers),Details,500
+Class Distribution (Detailed Material Types),B3 (tablet_capsule),Details,500
+Class Distribution (Detailed Material Types),B3 (aerosol_cans),Details,500
+Class Distribution (Detailed Material Types),B3 (medicine_bottle),Details,500
+Class Distribution (Detailed Material Types),Anorganik (HDPEM),Details,451
+Image Characteristics,,Corrupt Images Found,0
+Image Characteristics,,Image Color Modes,"{'RGB': 17544, 'RGBA': 44, 'P': 26, 'L': 4, 'CMYK': 2}"
+Image Characteristics,,Unique Image Sizes (Main Categories),"{'kaleng': 1, 'PET': 1, 'rag': 1, 'bungkus_makanan': 1, 'plastic_shopping_bags': 1, 'HDPEM': 1, 'kaca': 1, 'plastic_detergent_bottles': 1, 'battery': 1, 'tablet_capsule': 1, 'glass_cosmetic_containers': 1, 'aerosol_cans': 1, 'medicine_bottle': 1, 'kertas': 1, 'kardus': 1, 'eggshells': 1, 'tissue': 1, 'daun': 1, 'food_waste': 1, 'random_objects': 1}"
+Image Characteristics,,Aspect Ratio Distribution (Summary),"{'Min Aspect Ratio': np.float64(0.2785714285714286), 'Max Aspect Ratio': np.float64(6.206896551724138), 'Mean Aspect Ratio': np.float64(1.0547831871005218), 'Median Aspect Ratio': np.float64(1.0)}"
+Image Characteristics,,Brightness Distribution (Summary),"{'Min Brightness': np.float64(19.779937744140625), 'Max Brightness': np.float64(249.3425), 'Mean Brightness': np.float64(172.06768681809308), 'Median Brightness': np.float64(175.73317464192706)}"
+Data Split Information,,Train Set Size,12686
+Data Split Information,,Validation Set Size,3172
+Data Split Information,,Test Set Size,1762
+Data Split Information,,Class Names (from TensorFlow Dataset),"['Anorganik', 'B3', 'Non-Waste', 'Organik']"
